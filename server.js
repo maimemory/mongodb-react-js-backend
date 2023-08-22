@@ -11,7 +11,7 @@ app.use(cors());
 
 const PORT = 1000 || process.env.PORT;
 
-let url = 'mongodb+srv://maimemory:maimemory@cluster0.qoqwbws.mongodb.net/?retryWrites=true&w=majority'
+let url = 'mongodb+srv://maimemory:vPnFJCyIeHqKmSUc@cluster0.qoqwbws.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.set('debug', true);
 
